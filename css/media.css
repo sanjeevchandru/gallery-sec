@@ -1,0 +1,107 @@
+@media(min-width:320px){
+	.container{
+		width:100%;
+		margin:auto;
+	}
+	.filter-menu{
+		width:70%;
+		margin:auto;
+	}
+	.port-row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.port-col{
+		width:100%;
+	}
+	.title h1::before{
+		content:"";
+		
+		border-top:3px solid red;
+		position:absolute;
+		top:45%;
+		left:50px;
+		width:80px;
+	}
+	.title h1::after{
+		content:"";
+		
+		border-top:3px solid red;
+		position:absolute;
+		top:45%;
+		right:50px;
+		width:80px;
+	}
+}
+
+@media(min-width:760px){
+	.container{
+		width:95%;
+		margin:auto;
+	}
+	.filter-menu{
+		width:40%;
+		margin:auto;
+	}
+	.port-row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.port-col{
+		width:100%;
+	}
+	.title h1::before{
+		content:"";
+		
+		border-top:3px solid red;
+		position:absolute;
+		top:45%;
+		left:250px;
+		width:80px;
+	}
+	.title h1::after{
+		content:"";
+		
+		border-top:3px solid red;
+		position:absolute;
+		top:45%;
+		right:250px;
+		width:80px;
+	}
+}
+
+@media(min-width:960px){
+	.container{
+		width:85%;
+		margin:auto;
+	}
+	.filter-menu{
+		width:25%;
+		margin:auto;
+	}
+	.port-row{
+		display:flex;
+		flex-wrap:nowrap;
+	}
+	.port-col{
+		width:33.33%;
+	}
+	.title h1::before{
+		content:"";
+		
+		border-top:3px solid red;
+		position:absolute;
+		top:45%;
+		left:300px;
+		width:80px;
+	}
+	.title h1::after{
+		content:"";
+		
+		border-top:3px solid red;
+		position:absolute;
+		top:45%;
+		right:300px;
+		width:80px;
+	}
+}
